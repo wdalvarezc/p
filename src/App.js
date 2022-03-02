@@ -14,8 +14,8 @@ function App() {
 
       <Router>
         <Routes>
-          <Route path='/' element={<Menu />} />
-          <Route path=':name' element={<Formulario />} />
+          <Route path='/p' element={<Menu />} />
+          <Route path='/p/:name' element={<Formulario />} />
         </Routes>
       </Router>
     </div>
