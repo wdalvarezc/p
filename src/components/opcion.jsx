@@ -4,7 +4,7 @@ function Opcion(props) {
     return (
         <>
             <li>
-                <Link className='opcion' to={`/${props.op}`}> {props.op}</Link>
+                <Link className='opcion' to={`/p/${props.op}`}> {props.op}</Link>
             </li>
         </>
     );

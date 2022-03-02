@@ -59,7 +59,7 @@ function Formulario() {
     }
     return (
         <div className='login-box'>
-            <NavLink to={'/'} className='link'>↤ atras</NavLink>
+            <NavLink to={'/p'} className='link'>↤ atras</NavLink>
             <h2>Ud ha decidido viajar en {params.name}</h2>
             <form onSubmit={submit}>
                 <div className='user-box'>
